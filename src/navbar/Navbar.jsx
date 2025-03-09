@@ -50,7 +50,7 @@ function Navbar() {
             {/* containtr */}
             <div className="flex flex-row items-center justify-between  bg-gray-200 p-4 "  > 
                 <div>
-                    <h1 className="font-bold text-3xl cursor-pointer" onClick={()=>{navagate("/")}} >logo</h1>
+                    <h1 className="font-bold text-3xl cursor-pointer" onClick={()=>{navagate("/")}} >Cardiology</h1>
                 </div>
 
                
