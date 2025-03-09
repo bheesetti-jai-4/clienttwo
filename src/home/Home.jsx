@@ -11,6 +11,7 @@ import Numbers from "./Numbers"
 function Home() {
   return (
     <>
+    <Navbar/>
     <Hero/>
     <Numbers/>
     <DoctorProfile/>

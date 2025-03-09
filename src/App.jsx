@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from './navbar/Navbar'
 import { BrowserRouter, Link, Route, Router, Routes  } from "react-router-dom";
 import Home from './home/Home';
 import NotFound from './NotFound';
@@ -10,6 +9,7 @@ import Maps from './home/Maps';
 import TestList from './testimonials/TestList';
 // import Testimonial from './testimonials/Testimonials';
 // import TestList from './testimonials/TestList';
+// import Navbar from './navbar/Navbar'
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
   
     <BrowserRouter>
 
-    <Navbar/> 
+    {/* <Navbar/>  */}
 
     {/* links to display  */}
     {/* <Link to={"/home"} > home </Link> */}

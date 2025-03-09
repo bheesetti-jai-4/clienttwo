@@ -9,6 +9,7 @@
 //                     </div>
 
 import Footer from "../navbar/Footer";
+import Navbar from "../navbar/Navbar";
 
 //                 ))
 //             }
@@ -89,6 +90,7 @@ import Footer from "../navbar/Footer";
 function AllCardMain({ storedata }) {
     return (
       <>
+      <Navbar/>
       <div className="container mx-auto p-6 md:p-10 antialiased">
         {storedata && storedata.length > 0 ? (
           <div className="space-y-4"> {/* Small gap between each card */}
