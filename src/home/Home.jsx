@@ -1,6 +1,5 @@
 import Galary from "../galary/Galary"
 import Footer from "../navbar/Footer"
-import Navbar from "../navbar/Navbar"
 import DoctorProfile from "../profile/DoctorProfile"
 import Card from "../service/Card"
 import Testimonial from "../testimonials/Testimonials"
@@ -11,7 +10,6 @@ import Numbers from "./Numbers"
 function Home() {
   return (
     <>
-    <Navbar/>
     <Hero/>
     <Numbers/>
     <DoctorProfile/>

@@ -3,7 +3,6 @@
 //     return (
 //       <>
 
-import Navbar from "../navbar/Navbar";
 
 
   
@@ -39,7 +38,6 @@ import Navbar from "../navbar/Navbar";
 function DoctorProfile() {
     return (
       <>
-      <Navbar/>
       <div className="flex pt-6 px-4 md:px-20 items-center justify-center bg-hero min-h-screen overflow-hidden">
         <div className="flex flex-col gap-6 md:flex-row items-center max-w-8xl">
           

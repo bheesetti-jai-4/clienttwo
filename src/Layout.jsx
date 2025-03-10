@@ -1,11 +1,11 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-// import Navbar from './navbar/Navbar';
+import Navbar from './navbar/Navbar';
 
 function Layout() {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <Outlet /> {/* This renders the nested routes */}
     </>
   );

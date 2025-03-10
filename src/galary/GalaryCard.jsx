@@ -4,13 +4,12 @@
 import allitems from "../store/Images";
 import AllCardMain from "../allhandles/AllCardMain";
 import Footer from "../navbar/Footer";
-import Navbar from "../navbar/Navbar";
 
 function GalaryCard() {
   const data = allitems.imagemax
   return (
     <>
-    <Navbar/>
+   
     <div className="container mx-auto p-6" > 
        {/* additiona ga matram may add chesam div and h2 */}
       <h2 className="text-4xl font-bold text-center mb-12 transition-transform duration-500 cursor-pointer transform hover:scale-105" >Galary</h2>
